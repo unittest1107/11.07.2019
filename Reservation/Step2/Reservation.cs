@@ -30,7 +30,7 @@ namespace UnitTestProject1
             // check if negative tables or hours
             // throw argument exception
 
-            return tables / (float)hours;
+            return (float)tables / hours;
         }
     }
 
