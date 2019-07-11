@@ -24,13 +24,13 @@ namespace UnitTestProject1
             return false;
         }
 
-        public float CalcAverageTables(int tables, int hours)
+        public int CalcAverageTables(int tables, int hours)
         {
             // TODO:
             // check if negative tables or hours
             // throw argument exception
 
-            return (float)tables / hours;
+            return tables / hours;
         }
     }
 
