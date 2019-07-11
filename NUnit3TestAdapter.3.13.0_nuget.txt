@@ -1,0 +1,1 @@
+NUnit3TestAdapter.3.13.0
